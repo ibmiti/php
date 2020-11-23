@@ -13,7 +13,7 @@ public $description;
 public $completed = false;
 
 // public method
-// construct is a special key-word and this is a public method which accepts description proterty
+// on task class instantiation run this method // new Task('task');
 public function __construct($description)
 {
   $this->description = $description;
